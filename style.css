@@ -14,10 +14,15 @@
     height: 478px;
     justify-content: center;
     align-items: stretch;
-    max-width: auto;
     padding: 5px;
     margin: -8px;
 }  
+.left_banner_image {
+    object-fit: cover;
+}
+.right_banner_image {
+    object-fit: cover;
+}
 .subheading {
     text-align: center;
     text-size: 50px;
@@ -33,7 +38,66 @@
 .coat_of_arms {
     text-align: center;
 }
-.centred_image {
+.visit_right {
+    text-align: left;
+    text-size: 50px;
+    color: #0B3986;
+    font-family: Helvetica;
+    float: left;
+    margin: 100px auto 100px 610px;
+}
+.visit_left {
+    text-align: left;
+    text-size: 50px;
+    color: #0B3986;
+    font-family: Helvetica;
+    float: right;
+    margin: 100px 610px 100px auto;
+}
+.hippodrome_img {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 100px 50px;
+    background-image: url('images/hippodrome interior.jpg');
+    background-size: cover;
+    border: 5px solid #0B3986;
+    border-radius: 5px;
+}
+.railway_img {
+    width: 500px;
+    height: 500px;
+    margin: 100px 50px 100px auto;
+    background-image: url('images/railway.jpg');
+    background-size: cover;
+    border: 5px solid #0B3986;
+    border-radius: 5px;
+}
+.town_hall_img {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 100px 50px;
+    background-image: url('images/town hall 2.jpg');
+    background-size: cover;
+    border: 5px solid #0B3986;
+    border-radius: 5px;
+}
+.kinneil_img {
+    width: 500px;
+    height: 500px;
+    margin: 100px 50px 100px auto;
+    background-image: url('images/kinneil estate.jpg');
+    background-size: cover;
+    border: 5px solid #0B3986;
+    border-radius: 5px;
+}
+.hillclimb_img {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 100px 50px;
+    background-image: url('images/hillclimb.jpg');
+    background-size: cover;
+    border: 5px solid #0B3986;
+    border-radius: 5px;
 }
 .nav {
 
