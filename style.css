@@ -38,7 +38,7 @@
 .coat_of_arms {
     text-align: center;
 }
-.visit_right {
+.info_right {
     text-align: left;
     font-size: 40px;
     color: #0B3986;
@@ -46,7 +46,7 @@
     float: left;
     margin: 100px 50px 100px 610px;
 }
-.visit_left {
+.info_left {
     text-align: left;
     font-size: 40px;
     color: #0B3986;
@@ -95,6 +95,51 @@
     height: 500px;
     margin: 100px auto 100px 50px;
     background-image: url('images/hillclimb.jpg');
+    background-size: cover;
+    border: 5px solid #0B3986;
+    border-radius: 5px;
+}
+.fortlet_img {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 100px 50px;
+    background-image: url('images/bridgeness slab.jpg');
+    background-size: cover;
+    border: 5px solid #0B3986;
+    border-radius: 5px;
+}
+.coal_mines_img {
+    width: 500px;
+    height: 500px;
+    margin: 100px 50px 100px auto;
+    background-image: url('images/mineshaft wheel.jpg');
+    background-size: cover;
+    border: 5px solid #0B3986;
+    border-radius: 5px;
+}
+.docks_img {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 100px 50px;
+    background-image: url('images/docks.jpg');
+    background-size: cover;
+    border: 5px solid #0B3986;
+    border-radius: 5px;
+}
+.clay_mines_img {
+    width: 500px;
+    height: 500px;
+    margin: 100px 50px 100px auto;
+    background-image: url('images/clay mine.jpg');
+    background-size: cover;
+    border: 5px solid #0B3986;
+    border-radius: 5px;
+}
+.ironworks_img {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 100px 50px;
+    background-image: url('images/ironworks.jpg');
     background-size: cover;
     border: 5px solid #0B3986;
     border-radius: 5px;
